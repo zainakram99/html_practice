@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Forms in HTML</title>
+</head>
+<body>
+ <h1>Forms in HTML</h1>
+ <form action="/contact-me" >
+  <!-- there are several input types in the html form -->
+  <!-- text  -->
+  <label for="username">UserName:</label>
+  <input type="text" id="username" placeholder="Enter the your FullName" required> <br> <br>
+<!-- password  -->
+  <label for="passowrd">Password:</label>
+  <input type="password" id="password" placeholder="Type passowrd" required><br><br>
+<!-- date  -->
+  <label for="date">Date:</label>
+  <input type="date" id="date"><br><br>
+<!-- file -->
+  <label for="file">File:</label>
+  <input type="file" id="file"><br><br>
+  <!-- color -->
+  <label for="color">Color:</label>
+  <input type="color" id="color"><br><br>
+<!-- range -->
+  <label for="range">Range:</label>
+  <input type="range" id="range"><br><br>
+<!-- button -->
+  <label for="button">Button:</label>
+  <input type="button" id="button" value="poked"><br><br>
+<!-- radio -->
+  <label for="male">Male</label>
+  <input type="radio" name="gender" value="male" id="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" value="female" id="female"><br>
+  <label for="other">other</label>
+  <input type="radio" name="gender" value="other" id="other">
+  <br><br>
+  <!-- checkbox -->
+  <label for="html">HTML</label>
+  <input type="checkbox" name="lang" id="html" value="html"><br>
+  <label for="css">CSS</label>
+  <input type="checkbox" name="lang" id="css" value="css"><br>
+  <label for="js">JS</label>
+  <input type="checkbox" name="lang" id="js" value="js">
+  <br><br>
+<!-- select -->
+  <label for="fruits"></label>
+  <select name="fruits" id="fruits">
+   <option value="apple">Apple</option>
+   <option value="orange">Orange</option>
+   <option value="banana">Banana</option>
+   <option value="pineapple">Pineapple</option>
+   <option value="grape">Grapes</option>
+  </select>
+  <br><br>
+
+  <!-- textarea -->
+
+  <textarea name="" id="" cols="30" rows="10">Type Details Here</textarea>
+  <br><br>
+
+  <iframe src="https://www.wikipedia.com" frameborder="3" width="400px" height="300px"></iframe>  <br><br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=s-ec3XQGGU4oelX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <br><br>
+  <input type="submit">
+ </form>
+</body>
+</html> 
